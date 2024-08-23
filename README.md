@@ -1,6 +1,9 @@
 # Python-interview-questions
 All questions for big and midcap company
 
+![image](https://github.com/user-attachments/assets/f766ea1e-3bc1-4791-91a4-80cdea5704c8)
+
+
 Set Function
   ( What is a set type in Python? ) 
   Python’s built-in set type has the following characteristics: Sets are unordered. Set elements are unique. Duplicate elements are not allowed. A set itself may be modified, but the elements contained in the set 
