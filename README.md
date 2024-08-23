@@ -17,14 +17,12 @@ The Difference between List, Tuple, Set, and Dictionary
 # dictionary
 
 # Lists
-l = []
+	l = []
 
 # Adding Element into the list
-l.append(5)
-
-l.append(10)
-
-print("Adding 5 and 10 in list", l)
+	l.append(5)
+	l.append(10)
+	print("Adding 5 and 10 in list", l)
 
 # Popping Elements from the list
 l.pop()
