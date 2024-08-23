@@ -65,6 +65,7 @@ Lists:
 
 Syntax: []
 	Ordered: Yes (Maintains the insertion order)
+ 
 	Mutable: Yes (Elements can be changed)
 	Duplicates: Yes (Allows duplicate elements)
 	Example: [1, 2, 3, 4]
@@ -72,6 +73,7 @@ Tuples:
 
 Syntax: ()
 	Ordered: Yes (Maintains the insertion order)
+ 
 	Mutable: No (Elements cannot be changed once assigned)
 	Duplicates: Yes (Allows duplicate elements)
 	Example: (1, 2, 3, 4)
@@ -79,6 +81,7 @@ Sets:
 
 Syntax: {} or set()
 	Ordered: No (No guarantee of order in Python versions before 3.7)
+ 
 	Mutable: Yes (Elements can be added or removed)
 	Duplicates: No (Does not allow duplicate elements)
 	Example: {1, 2, 3, 4}
@@ -86,6 +89,7 @@ Dictionaries:
 
 Syntax: {key: value}
 	Ordered: Yes (Maintains the insertion order starting from Python 3.7)
+ 
 	Mutable: Yes (Keys and values can be changed)
 	Duplicates: No (Keys must be unique, but values can be duplicated)
 	Example: {'a': 1, 'b': 2, 'c': 3}
