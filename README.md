@@ -97,3 +97,9 @@ Syntax: {key: value}
 	Duplicates: No (Keys must be unique, but values can be duplicated)
 	Example: {'a': 1, 'b': 2, 'c': 3}
 
+ Write a code Backwards with space after each letter
+
+ 	a = ' '.join('sunny')
+	a= a[::-1]
+	print(a)
+
