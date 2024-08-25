@@ -97,9 +97,23 @@ Syntax: {key: value}
 	Duplicates: No (Keys must be unique, but values can be duplicated)
 	Example: {'a': 1, 'b': 2, 'c': 3}
 
- Write a code Backwards with space after each letter
+ Write a code Backwards with a space after each letter
 
  	a = ' '.join('sunny')
 	a= a[::-1]
 	print(a)
+
+ Sum up the Last 2 Digit
+
+ 	a = '123456'
+	b = int(a[-2]) + int(a[-1])
+	print(b)
+
+Identifying the Most Frequent Letter in a Word Using Python
+
+ 	from collections import Counter
+	a = input('word:')  
+	b = Counter(a)
+	frequency = b.most_common(1)[0]
+	print(frequency)
 
