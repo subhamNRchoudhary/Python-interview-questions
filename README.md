@@ -116,4 +116,11 @@ Identifying the Most Frequent Letter in a Word Using Python
 	b = Counter(a)
 	frequency = b.most_common(1)[0]
 	print(frequency)
+ 
+identifying all the letter
 
+	from collections import Counter
+	a = input('word: ')  
+	b = Counter(a)
+	for c,d in b.items():
+	print(f"{c}={d}")
