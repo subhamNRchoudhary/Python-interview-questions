@@ -124,3 +124,17 @@ identifying all the letter
 	b = Counter(a)
 	for c,d in b.items():
 	print(f"{c}={d}")
+
+ ![image](https://github.com/user-attachments/assets/bddf0197-a4a9-42c6-b6c9-4ab528f85e62)
+
+sorting 
+
+	a = '55032658112365'
+	b = (sorted(a))
+	print(b)
+
+	a = '55032658112365'
+	b = sorted(a , reverse = True)
+	print(b)
+
+ 
