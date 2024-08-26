@@ -151,9 +151,11 @@ a)	Reverse a string.
 
 
 b)	Find the maximum element in an array.
+
 	a = [5,9,2,5,66,25,75]
 	b = max(a)
 	b
+ ----
 
 	a = [5,9,2,5,66,25,75]
 	
