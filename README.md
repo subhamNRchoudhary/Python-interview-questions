@@ -194,6 +194,10 @@ identifying / Counting all the letter
 	    print("Palindrome.")
 	else:
 	    print("Not a Palindrome.")
+     ---
+     ![image](https://github.com/user-attachments/assets/1f2520c3-1dfa-4326-baed-c196549a6bab)
+	![image](https://github.com/user-attachments/assets/0688caeb-707e-4ad4-80f5-194aaf5e9520)
+
     
 d)	Find the missing number in an array.
 e)	Find the intersection of two arrays.
