@@ -197,5 +197,23 @@ n)	Find the lowest common ancestor in a binary tree.
 o)	Check if a binary tree is a binary search tree.
 p)	Find the level order traversal of a binary tree. 
 q)	Find the Kth largest element in an array
+r) 	Find the minimum element in an array.
+
+	a = [5,9,2,5,66,25,75]
+	b = min(a)
+	b
+ ---
+ 
+	a = [99, 5, 66, 3, 66]
+	def minimum_value(a):
+	    b_min = a[0]  # Start by assuming the first element is the minimum
+	    for num in a:
+	        if num < b_min:  # If the current number is smaller than b_min
+	            b_min = num  # Update b_min to be the new minimum
+	    return b_min  # Return the minimum value found
+	
+	b = minimum_value(a)
+	print('min:', b)
+
 
  
