@@ -119,6 +119,9 @@ Syntax: {key: value}
 	b = int(a[-2]) + int(a[-1])
 	print(b)
 
+ ![image](https://github.com/user-attachments/assets/2df2a268-9869-4a98-b71a-5e58e4477779)
+
+
 Identifying the Most Frequent Letter in a Word Using Python
 
  	from collections import Counter
