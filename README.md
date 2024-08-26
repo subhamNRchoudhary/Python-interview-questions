@@ -117,7 +117,7 @@ Identifying the Most Frequent Letter in a Word Using Python
 	frequency = b.most_common(1)[0]
 	print(frequency)
  
-identifying all the letter
+identifying / Counting all the letter
 
 	from collections import Counter
 	a = input('word: ')  
@@ -136,5 +136,35 @@ sorting
 	a = '55032658112365'
 	b = sorted(a , reverse = True)
 	print(b)
+
+a)	Reverse a string.
+
+		a = '55032658112365'
+		b = sorted(a , reverse = True)
+		print(b)
+
+	  a = '1856224'
+	  b = '' # Initialize an empty string to store the reversed string
+	  for i in range(len(a)-1,-1,-1): # Loop through the original string starting from the 						#last character to the first
+	  b += a[i]  # Append the character at position 'i' to 'reversed_string'
+	  print(b)
+
+
+b)	Find the maximum element in an array.
+c)	Check if a string is a palindrome.
+d)	Find the missing number in an array.
+e)	Find the intersection of two arrays.
+f)	Remove duplicates from an array.
+g)	Count the occurrence of each element in an array.
+h)	Find the second largest element in an array.
+i)	Merge two sorted arrays.
+j)	Find the length of the longest substring without repeating characters.
+k)	Reverse a linked list.
+l)	Implement a stack using an array.
+m)	Implement a queue using an array.
+n)	Find the lowest common ancestor in a binary tree.
+o)	Check if a binary tree is a binary search tree.
+p)	Find the level order traversal of a binary tree. 
+q)	Find the Kth largest element in an array
 
  
