@@ -151,6 +151,24 @@ a)	Reverse a string.
 
 
 b)	Find the maximum element in an array.
+	a = [5,9,2,5,66,25,75]
+	b = max(a)
+	b
+
+	a = [5,9,2,5,66,25,75]
+	
+	# Function to find the maximum value 
+	def max_value(a):
+	  b_max = a[0] # Assume the first element is the maximum
+	  for num in a:
+	    if num > b_max: # If the current number is greater than max_value
+	      b = num  # Update max_value
+	  return b
+	
+	b = max_value(a) 
+	print("max :",b)   
+
+ 
 c)	Check if a string is a palindrome.
 d)	Find the missing number in an array.
 e)	Find the intersection of two arrays.
