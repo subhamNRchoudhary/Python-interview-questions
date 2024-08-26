@@ -1,10 +1,10 @@
 # Python-interview-questions
-*All questions for big and midcap company*
+*All questions for big and midcap companies*
 
 ![image](https://github.com/user-attachments/assets/f766ea1e-3bc1-4791-91a4-80cdea5704c8)
 
 *Palindrome*
-A word, phrase, or sequence that reads the same backward as forwards, e.g. *madam*
+	A word, phrase, or sequence that reads the same backward as forwards, e.g. *madam*
 
 ![image](https://github.com/user-attachments/assets/e779de78-9c69-446e-89e1-e3b801025048)
 ![image](https://github.com/user-attachments/assets/54c055ad-32a0-4ec3-a976-938b3fab2cfb)
@@ -14,9 +14,10 @@ A word, phrase, or sequence that reads the same backward as forwards, e.g. *mada
 
 *Set Function*
 
-  ( What is a set type in Python? ) 
-  Python’s built-in set type has the following characteristics: Sets are unordered. Set elements are unique. Duplicate elements are not allowed. A set itself may be modified, but the elements contained in the set 
-  must be of an immutable type.
+  ( What is a set type in Python? )
+  
+ 	 Python’s built-in set type has the following characteristics: Sets are unordered. Set 	elements are unique. Duplicate elements are not allowed. A set itself may be modified, 	but the elements contained in the set 
+  	must be of an immutable type.
   ![image](https://github.com/user-attachments/assets/95255803-973a-4d2d-b6c2-93caface9227)
 
 
