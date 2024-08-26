@@ -16,7 +16,7 @@
 
   ( What is a set type in Python? )
   
- 	 Python’s built-in set type has the following characteristics: Sets are unordered. Set 	elements are unique. Duplicate elements are not allowed. A set itself may be modified, 	but the elements contained in the set 
+ 	 Python’s built-in set type has the following characteristics: Sets are unordered. Set elements are unique. Duplicate elements are not allowed. A set itself may be modified, 	but the elements contained in the set 
   	must be of an immutable type.
   ![image](https://github.com/user-attachments/assets/95255803-973a-4d2d-b6c2-93caface9227)
 
@@ -137,7 +137,7 @@ identifying / Counting all the letter
 
  ![image](https://github.com/user-attachments/assets/bddf0197-a4a9-42c6-b6c9-4ab528f85e62)
 
-sorting 
+*sorting*
 
 	a = '55032658112365'
 	b = (sorted(a))
@@ -147,7 +147,7 @@ sorting
 	b = sorted(a , reverse = True)
 	print(b)
 
-a)	Reverse a string.
+*a)	Reverse a string.*
 
 		a = '55032658112365'
 		b = sorted(a , reverse = True)
@@ -161,7 +161,7 @@ a)	Reverse a string.
 	  print(b)
 
 
-b)	Find the maximum element in an array.
+*b)	Find the maximum element in an array.*
 
 	a = [5,9,2,5,66,25,75]
 	b = max(a)
@@ -182,7 +182,19 @@ b)	Find the maximum element in an array.
 	print("max :",b)   
 
  
-c)	Check if a string is a palindrome.
+*c)	Check if a string is a palindrome.*
+
+	def is_palindrome(s):
+	    # Remove any spaces and convert the string to lowercase for accurate comparison
+	    s = s.replace(" ", "").lower()
+	    return s == s[::-1]
+	
+	b = "A man a plan a canal Panama"
+	if is_palindrome(b):
+	    print("Palindrome.")
+	else:
+	    print("Not a Palindrome.")
+    
 d)	Find the missing number in an array.
 e)	Find the intersection of two arrays.
 f)	Remove duplicates from an array.
