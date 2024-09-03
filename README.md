@@ -203,8 +203,19 @@ identifying / Counting all the letter
 
     
 d)	Find the missing number in an array.
+
 e)	Find the intersection of two arrays.
 f)	Remove duplicates from an array.
+
+	def remove_duplicates(a):
+	return list(set(a)) # By converting the array to a set, duplicates are removed.
+	# Example usage
+	a = [1, 2, 2, 3, 4, 4, 5, 6, 6, 7] #Converting the set back to a list gives the final array without duplicates.
+	result = remove_duplicates(arr)
+	print(result)
+
+ 
+
 g)	Count the occurrence of each element in an array.
 h)	Find the second largest element in an array.
 i)	Merge two sorted arrays.
