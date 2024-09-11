@@ -350,6 +350,16 @@ n)	Find the lowest common ancestor in a binary tree.
 o)	Check if a binary tree is a binary search tree.
 p)	Find the level order traversal of a binary tree. 
 q)	Find the Kth largest element in an array
+
+	import heapq
+	
+	def kth_largest(arr, k):
+	    return heapq.nlargest(k, arr)[-1]
+	
+	arr = [3, 2, 1, 5, 6, 4]
+	k = 2
+	print(kth_largest(arr, k))  # 5
+
 r) 	Find the minimum element in an array.
 
 	a = [5,9,2,5,66,25,75]
