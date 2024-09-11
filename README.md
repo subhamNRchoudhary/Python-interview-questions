@@ -217,12 +217,135 @@ f)	Remove duplicates from an array.
  
 
 g)	Count the occurrence of each element in an array.
+
+		from collections import Counter
+		def count_occurrences(arr):
+		    return Counter(arr)
+		
+		arr = [1, 2, 2, 3, 4, 4, 4, 5]
+		print(count_occurrences(arr))
+  ----
+  
+
 h)	Find the second largest element in an array.
+
+	def second_largest(arr):
+	    unique_arr = list(set(arr))  # Remove duplicates
+	    unique_arr.sort(reverse=True)
+	    return unique_arr[1] if len(unique_arr) > 1 else None
+	
+	arr = [3, 1, 5, 2, 4, 5, 3]
+	print(second_largest(arr))
+
 i)	Merge two sorted arrays.
+
+	def merge_sorted_arrays(arr1, arr2):
+	    return sorted(arr1 + arr2)
+	
+	arr1 = [1, 3, 5, 7]
+	arr2 = [2, 4, 6, 8]
+	print(merge_sorted_arrays(arr1, arr2))
+
 j)	Find the length of the longest substring without repeating characters.
+
+	def longest_substring(s):
+	    char_index = {}
+	    start = max_len = 0
+	    for i, char in enumerate(s):
+	        if char in char_index and char_index[char] >= start:
+	            start = char_index[char] + 1
+	        char_index[char] = i
+	        max_len = max(max_len, i - start + 1)
+	    return max_len
+	
+	s = "abcabcbb"
+	print(longest_substring(s))
+
 k)	Reverse a linked list.
+
+	class Node:
+	    def __init__(self, value):
+	        self.value = value
+	        self.next = None
+	
+	def reverse_linked_list(head):
+	    prev = None
+	    current = head
+	    while current:
+	        next_node = current.next
+	        current.next = prev
+	        prev = current
+	        current = next_node
+	    return prev
+	
+	# Helper function to print linked list
+	def print_list(head):
+	    current = head
+	    while current:
+	        print(current.value, end=" -> ")
+	        current = current.next
+	    print("None")
+	
+	# Example usage
+	head = Node(1)
+	head.next = Node(2)
+	head.next.next = Node(3)
+	head = reverse_linked_list(head)
+	print_list(head)
+
 l)	Implement a stack using an array.
+
+	class Stack:
+	    def __init__(self):
+	        self.stack = []
+
+    def push(self, value):
+        self.stack.append(value)
+
+    def pop(self):
+        if not self.is_empty():
+            return self.stack.pop()
+        return None
+
+    def peek(self):
+        if not self.is_empty():
+            return self.stack[-1]
+        return None
+
+    def is_empty(self):
+        return len(self.stack) == 0
+
+	# Example usage
+	stack = Stack()
+	stack.push(10)
+	stack.push(20)
+	print(stack.pop())  # 20
+	print(stack.peek())  # 10
+
 m)	Implement a queue using an array.
+
+	class Queue:
+	    def __init__(self):
+	        self.queue = []
+
+    def enqueue(self, value):
+        self.queue.append(value)
+
+    def dequeue(self):
+        if not self.is_empty():
+            return self.queue.pop(0)
+        return None
+
+    def is_empty(self):
+        return len(self.queue) == 0
+
+	# Example usage
+	queue = Queue()
+	queue.enqueue(1)
+	queue.enqueue(2)
+	print(queue.dequeue())  # 1
+	print(queue.dequeue())  # 2
+
 n)	Find the lowest common ancestor in a binary tree.
 o)	Check if a binary tree is a binary search tree.
 p)	Find the level order traversal of a binary tree. 
